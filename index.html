@@ -13,9 +13,16 @@
 </head>
 <body>
 <div class="container">
+    <noscript>
+        <div data-alert class="text-center alert-box alert">
+            <h3>This site works with JavaScript on! :)</h3>
+
+        </div>
+    </noscript>
     <div class="row-fluid">
         <div class="column page fl-3">
-
+           <span class="master-text">Hi, I am a Developer</span> <br/>
+            <span class="slave-text">Welcome to my website </span>
         </div>
     </div>
 
@@ -42,6 +49,11 @@
 </div>
 
 <script src="scripts/jquery-2.1.1.js"></script>
+<script src="scripts/foundation.min.js"></script>
+<script src="scripts/window.js"></script>
 <script src="scripts/script.js"></script>
+<script>
+    $(document).foundation();
+</script>
 </body>
 </html>
