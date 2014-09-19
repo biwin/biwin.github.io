@@ -1,3 +1,32 @@
+#preload{
+	position: fixed;
+	background-color: #030101;
+	height: 100%;
+	width: 100%;
+	z-index: 220;
+}
+
+.wait{
+	display: none;
+}
+.pace .pace-progress {
+	background: #cb120e;
+	position: fixed;
+	z-index: 2000;
+	top: 0;
+	left: 0;
+	height: 2px;
+
+	-webkit-transition: width 1s;
+	-moz-transition: width 1s;
+	-o-transition: width 1s;
+	transition: width 1s;
+}
+
+.pace-inactive {
+	display: none;
+}
+
 .toplayer{
 	height: 100%;
 	width:  100%;

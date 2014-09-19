@@ -5,6 +5,12 @@ $('.page').css('height',viewport_height);
 $('.text-area').css('marginTop',viewport_height/2.5)
 $(document).ready(function(){
 
+	$('#main-container').removeClass('wait');
+	$('#preload').animate({
+		opacity : 'hide'
+	},3000, 'linear');
+
+
     var $windows = $('.page');
 
     $windows.windows({
