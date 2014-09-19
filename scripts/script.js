@@ -2,6 +2,7 @@ var viewport_height = $(document).height();
 
 $('.page').css('height',viewport_height);
 
+$('.text-area').css('marginTop',viewport_height/2.5)
 $(document).ready(function(){
 
     var $windows = $('.page');
@@ -14,6 +15,18 @@ $(document).ready(function(){
         onSnapComplete: function($el){},
         onWindowEnter: function($el){}
     });
+
+	$('.slave-text').typetype(
+		'welcome to my website',
+		{
+			e: 0.09,
+			t: 100,
+			keypress: function (){
+			},
+			callback: function (){
+			}
+		}
+	)
 
 
 });
