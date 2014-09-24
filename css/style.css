@@ -40,12 +40,13 @@
     font-size:3em;
 	font-weight: bolder;
 	text-shadow: 0 0 6px #000;
+	font-family: "Rockwell Std", Helvetica, Arial, Verdana, sans-serif;
 }
 .slave-text{
 	font-size: 1.2em;
-	font-weight: lighter;
-	color: #000;
-	margin-top: 20px;
+	font-weight: 600;
+	font-family: "Proxima Nova Condensed", "proxima-nova-condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #341920;
 }
 
 .text-area{
