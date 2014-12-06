@@ -1,53 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="UTF-8">
-	<script src="scripts/pace.min.js"></script>
-    <title>Welcome to my github</title>
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/normalize.css" media="screen">
-    <link rel="stylesheet" href="css/foundation.css" media="screen">
-    <link rel="stylesheet" href="css/style.css" media="screen">
-    <link rel="stylesheet" href="css/colorcode.css"/>
-
+	<meta charset="UTF-8">
+	<title>Welcome to my github</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+	.container{
+		height: 100%;
+		width: 100%;
+	}
+	.sidebar{
+		width: 20%;
+		height: 100%;
+		background-color: #000;
+		position: fixed;
+		color: #fff;
+	}
+	.main-content{
+		width: 80%;
+		position: relative;
+		
+	}
+	</style>
 </head>
 <body>
-<div id="preload">
-
-</div>
-<div id="main-container" class="container wait">
-    <noscript>
-        <div data-alert class="text-center alert-box alert">
-            <h3>This site works with JavaScript on! :)</h3>
-
-        </div>
-    </noscript>
-
-	<div class="row-fluid">
-		<div class="toplayer">
-
-		</div>
-
+<div class="container row-fluid">
+	<div class="sidebar column large-3">
+	
 	</div>
-    <div class="row-fluid">
-        <div class="column page fl-13">
-	        <div class="text-area">
-		        <span class="master-text">This site is under development</span> <br/>
-		        <span class="slave-text"></span>
-	        </div>
-
-        </div>
-    </div>
+	<div class="main-content column large-9">
+		this site under development.
+	</div>
 </div>
-
-<script src="scripts/jquery-2.1.1.js"></script>
-<script src="scripts/foundation.min.js"></script>
-<script src="scripts/jquery.typetype.js"></script>
-<script src="scripts/script.js"></script>
-<script>
-
-
-</script>
 </body>
 </html>
