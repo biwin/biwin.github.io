@@ -7,6 +7,7 @@
  */
 
 html {
+  /*font-family: sans-serif; /* 1 */*/
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -128,11 +129,11 @@ dfn {
 
 /**
  * Address variable `h1` font-size and margin within `section` and `article`
- * contexts in Firefox 4+, Safari, and Chrome.*/
- 
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
 
 h1 {
-  /*font-size: 2em;*/
+  font-size: 2em;
   margin: 0.67em 0;
 }
 
@@ -150,7 +151,7 @@ mark {
  */
 
 small {
-  /*font-size: 80%;*/
+  font-size: 80%;
 }
 
 /**
@@ -159,7 +160,7 @@ small {
 
 sub,
 sup {
-  /*font-size: 75%;*/
+  font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
@@ -229,7 +230,8 @@ code,
 kbd,
 pre,
 samp {
-  /*font-size: 1em;*/
+  font-family: monospace, monospace;
+  font-size: 1em;
 }
 
 /* Forms
@@ -338,8 +340,8 @@ input[type="radio"] {
 /**
  * Fix the cursor style for Chrome's increment/decrement buttons. For certain
  * `font-size` values of the `input`, it causes the cursor style of the
- * decrement button to change from `default` to `text`.*/
- 
+ * decrement button to change from `default` to `text`.
+ */
 
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
